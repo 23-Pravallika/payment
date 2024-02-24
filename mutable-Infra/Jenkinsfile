@@ -1,0 +1,6 @@
+@Library('shared-library-robo') _
+
+env.REPONAME = "payment"
+env.TFDIR = "mutable-Infra"
+terraform()
+
